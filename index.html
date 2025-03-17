@@ -25,11 +25,11 @@
     <title>Jianlu kamei</title>
   </head>
   <body>
-    <header class="bg-black">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <header class="bg-black ">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container">
           <a class="navbar-brand fw-semibold" href="#">
-            <span class="fs-1 text-primary">JK</span>amei
+            <span class="fs-1 jk">JK</span>amei
           </a>
 
           <button
@@ -44,7 +44,7 @@
             <i class="fa-solid fa-bars text-white"></i>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse mx-5" id="navbarNav">
             <ul class="navbar-nav gap-3 mx-auto">
               <li class="nav-item">
                 <a class="nav-link active fs-6" href="#home">Home</a>
@@ -63,7 +63,8 @@
               </li>
             </ul>
 
-            <a
+            <div>
+              <a
               href="assets/Jianlu_CV.pdf"
               class="btn Resume px-4"
               target="_blank"
@@ -71,18 +72,20 @@
             >
               <i class="fa-regular fa-file-pdf text-danger"></i> Resume
             </a>
+             </div>
           </div>
+        
         </div>
       </nav>
     </header>
-    <section id="home" class="bg-black py-5 mt-5 home section">
+    <section id="home" class="bg-black py-5 home section">
       <div class="container">
         <h1
-          class="text-white-50 fw-semibold text-center display-6 mb-3 Frontend"
+          class="text-white-50 fw-semibold text-center display-6 Frontend"
         >
           Frontend Developer
         </h1>
-        <div class="row pt-5 mx-auto">
+        <div class="row pt-5 mx-auto hero-section">
           <div class="col-md-7">
             <div class="text-start p-3">
               <h2 class="text-white fw-normal">
@@ -110,9 +113,9 @@
     </section>
 
     <section class="bg-black">
-      <section id="about" class="about-section py-5">
+      <article id="about" class="about-section py-5">
         <div class="container">
-          <div class="text-center">
+          <div class="text-center mb-3">
             <span class="about fs-2"
               >About <span class="text-primary">Me</span></span
             >
@@ -141,11 +144,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section id="project" class="Projects-section bg-black py-5">
+      <article id="project" class="Projects-section bg-black py-5">
         <div class="container">
-          <div class="text-center mb-4">
+          <div class="text-center mb-3">
             <span class="text-center fs-2 text-light project"
               >My <span class="text-primary">Projects</span></span
             >
@@ -153,7 +156,7 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card bg-dark text-white custom-card mb-4">
-                <img src="assets/image/banner-imagebackground.png" class="card-img custom-img" alt="..." />
+                <img src="assets/image/banner-imagebackground.png" class=" custom-img" alt="..." />
                 <div class="card-img-overlay d-flex flex-column justify-content-between">
                   <h3 class="card-title mt-5 pt-5 fw-semibold ">Troovely</h3>
                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#troovelyModal">
@@ -298,11 +301,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </article
+      >
 
-      <section id="skill" class="py-3 my-skill-section">
+      <article id="skill" class=" my-skill-section py-5">
         <div class="container">
-          <div class="text-center pb-5">
+          <div class="text-center mb-3">
             <span class="text-light skill text-center fs-2">
               My <span class="text-primary">Skills</span>
             </span>
@@ -418,12 +422,12 @@
             </div>
           </div> -->
         </div>
-      </section>
+      </article>
     </section>
 
     <footer class="bg-black py-5 footer">
       <div class="container pt-3" id="footer">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-4 mb-4 mb-md-0 text-start">
             <div class="p-3">
               <h5 class="text-white fw-semibold Kamei">
@@ -472,11 +476,11 @@
 
           <div class="col-md-4 text-start">
             <div
-              class="p-3 p-3 ps-md-5 d-flex flex-column align-items-start text-start align-items-md-start text-md-start"
+              class="p-3 d-flex flex-column  text-start align-items-md-start align-items-center"
             >
               <h5 class="Social fw-bold">My Social Accounts</h5>
               <ul
-                class="list-unstyled gap-3 d-flex flex-wrap justify-content-center mt-4"
+                class="list-unstyled gap-3 d-flex flex-wrap justify-content-center"
               >
                 <li class="icon-bg">
                   <a href="/" class="text-white-50 text-decoration-none Social"
